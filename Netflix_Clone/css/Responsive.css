@@ -1,0 +1,257 @@
+/* // tablet view */
+@media screen and (max-width: 788px){
+    .container  .head{
+
+        position: absolute;
+        position: absolute;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: 2px;
+        align-items: center;
+        width: 100%;
+        padding: 4px 15px;
+        z-index: 100000;
+        margin-block: 4px;
+    }
+    .container .head img {
+        margin-right: 14px;
+        height: 7rem;
+        width: auto;
+    }
+    
+    .Language_selector {
+        font-weight: 400;
+        padding: 7px 13px 7px;
+        /* font-weight: bold; */
+        background-color: transparent;
+        color: white;
+        justify-self: self-end;
+        margin-right: 40px;
+    }
+
+    .banner {
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .banner:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vh;
+        height: 30vh;
+        background: linear-gradient(to bottom ,black ,transparent);
+        z-index: 1;
+    }
+
+    .banner:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100vh;
+        height: 30vh;
+        background: linear-gradient(to top ,black ,transparent);
+        z-index: 1;
+    }
+
+    .banner .box {
+        position: absolute;
+        top: 25%;
+        /* flex-shrink: 2; */
+        z-index: 10;
+        /* left: 40%; */
+        align-items: center;
+        justify-content: center;
+        /* background-color: pink; */
+    }
+
+    .banner .box .heading h2 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        font-weight: bold;
+        font-style: Oswald;
+        color: white;
+        letter-spacing: 1px;
+        width: 70%;
+    }
+
+    .banner .box .heading h5 {
+        font-size: 1.9rem;
+        color: white;
+        font-weight: bold;
+        padding: 1rem 0rem;
+    }
+
+    .banner .box .heading p {
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 500;
+        font-weight: bold;
+        padding: 15px 20px;
+        padding-bottom: 45px;
+    }
+    .banner .box .search input {
+        font-size: 32px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #8c8c8c;
+        min-width: 440px;
+        height: 60px;
+        padding-left: 10px;
+        text-align: start;
+    }
+
+    .banner .box .search a {
+        font-size: 2.125rem;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+        border-radius: 3px;
+        background-color: #e50914;
+        text-decoration: none;
+        line-height: 60px;
+        min-width: 200px;
+        border: 1px solid #8c8c8c;
+        color: white;
+        box-shadow: 0px 1px 0px rgb(0 0 0 / 45%);
+        text-align: center;
+    }
+
+    .part1 .talk {
+        width: 55%;
+        color: white;
+        margin-bottom: 10px;
+        /* flex-shrink: 2; */
+    }
+
+    .part1 .talk h1 {
+        font-size: 2.3rem;
+        letter-spacing: 2px;
+        margin: 35px;
+    }
+    
+    .part1 .talk p {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        margin: 2px 2px 2px 2px;
+    }
+
+    .part1 .img img {
+        height: 392px;
+        margin-bottom: 20px;
+    }
+
+    .part1 .talk {
+        width: 75%;
+        color: white;
+        margin-bottom: 42px;
+        margin-top: 10px;
+        /* flex-shrink: 2; */
+    }
+
+    .part1 .talk h1 {
+        font-size: 2.3rem;
+        letter-spacing: 1px;
+        margin: 25px;
+    }
+
+    .part1 .talk p {
+        font-size: 1.9rem;
+        letter-spacing: 1px;
+        margin: 5px 2px 2px 25px;
+    }
+
+    .banner2 {
+        width: 100%;
+        height: 25vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem 0rem;
+        border-bottom: 0.3rem solid rgb(83, 80, 80);
+    }
+
+    .banner2 .box .search input {
+        font-size: 30px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #8c8c8c;
+        min-width: 410px;
+        height: 60px;
+        padding-left: 10px;
+        text-align: start;
+    }
+
+    .banner2 .box .search a {
+        font-size: 2.225rem;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+        border-radius: 3px;
+        background-color: #e50914;
+        text-decoration: none;
+        line-height: 60px;
+        min-width: 200px;
+        border: 1px solid #8c8c8c;
+        color: white;
+        box-shadow: 0px 1px 0px rgb(0 0 0 / 45%);
+        text-align: center;
+    }
+
+
+    .Footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .Footer .one {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        /* background-color: red; */
+        width: 50%;
+        height: 20vh;
+        margin: auto;
+    }
+
+    .Footer .two {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        /* background-color: red; */
+        width: 35%;
+        margin: auto;
+    }
+   
+    .Footer .item li {
+        padding: 8px 5px 18px 10px;
+        color: white;
+        text-size-adjust: 44px;
+    }
+    
+    
+}
+    
+    
+
+/* mobile view  */
+@media screen and (max-width: 496px){
+
+
+    
+}
