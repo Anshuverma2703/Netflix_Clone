@@ -258,8 +258,8 @@ body{
     margin: 1px 0px 1px 0px;
     color: white;
     background-color: rgba(108, 103, 103, 0.588);
-    opacity: 1;
-    height: auto;
+    opacity: 0;
+    height: 0;
     
 }
 
@@ -267,5 +267,13 @@ body{
     height: auto;
     opacity: 1;
     border-top: 2px solid #000;
+    margin: 0;
+    margin-bottom: 6px;
+
+}
+
+.item:target .icon::after{
+    transform: rotatey(90deg);
+    /* transition: 0.5s linear; */
 }
 
